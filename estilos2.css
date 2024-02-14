@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(241, 207, 230);
+}
+
+.imagen1 {
+    width:1400px;
+    position:absolute;
+    left:14%;
+    top:15%;
+    animation:desdeizquierda .8s ease;
+}
+
+.imagen2 {
+    width:200px;
+    position:absolute;
+    left:4%;
+    top:65%;
+    animation:desdeizquierda .8s ease;
+    opacity:0.5;
+}
+
+.imagen3 {
+    width:200px;
+    position:absolute;
+    left:80%;
+    top:35%;
+    animation:desdeizquierda 1.7s ease;
+    opacity:0.5;
+}
+
+.imagen4 {
+    width:200px;
+    position:absolute;
+    left:14%;
+    top:15%;
+    animation:desdeizquierda 1s ease;
+    opacity:0.5;
+}
+
+.imagen5 {
+    width:200px;
+    position:absolute;
+    left:0%;
+    top:3%;
+    animation:desdeizquierda 1.2s ease;
+    opacity:0.5;
+}
+
+.imagen6 {
+    width:200px;
+    position:absolute;
+    left:20%;
+    top:75%;
+    animation:desdeizquierda 1.4s ease;
+    opacity:2;
+}
+
+.imagen7 {
+    width:200px;
+    position:absolute;
+    left:60%;
+    top:1%;
+    animation:desdeizquierda 1.4s ease;
+    opacity:0.5;
+}
+
+.imagen8 {
+    width:200px;
+    position:absolute;
+    left:90%;
+    top:75%;
+    animation:desdeizquierda 1.4s ease;
+    opacity:0.5;
+}
+
+.texto1 {
+    width:450px;
+    left:39%;
+    top:29%;
+    position:absolute;
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        animation:desdeizquierda 1s ease;
+      
+}
+
+@keyframes desdeizquierda {
+    from {
+        transform:translateY(200%)
+    }
+    to {
+        transform:translateY(0)
+    }
+}
