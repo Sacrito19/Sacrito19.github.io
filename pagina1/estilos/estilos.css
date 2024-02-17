@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(241, 207, 230);
+}
+
+.titulo1 {
+    color:rgb(228, 144, 176);
+    position:absolute;
+    left:45%;
+    top:22%;
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+           
+}
+
+.titulo2 {
+    color:rgb(228, 144, 176);
+    position:absolute;
+    left:45%;
+    top:67%;
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+           
+}
+
+
+.sobre1 {
+    width:500px;
+    position: absolute;
+    left:39%;
+    top:30%;
+    transition:0.9s;
+}
+
+.sobre2 {
+    width:500px;
+    position: absolute;
+    left:39%;
+    top:30%;
+    transition:0.9s;
+}
+
+.sobre2:hover {
+    top:35%;
+}
+
+.imagenes img:last-child {
+    display:none;
+}
+
+.imagenes:hover img:last-child {
+    display: block;
+}
+
+.imagenes:hover img:first-child {
+    display: none;
+}
